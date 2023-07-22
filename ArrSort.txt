@@ -1,0 +1,10 @@
+import java.util.Arrays;
+public class Reverse {
+    public static void main(String[] args) {
+        Integer[] arr = {100, 20, 33, 40, 55, 60, 70, 86, 9};
+        Arrays.sort(arr);
+        for (int num : arr) {
+            System.out.print(num+"  ");
+        }
+    }
+}
